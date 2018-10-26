@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles/index.css">
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/jquery/jquery-3.3.1.min.js"></script>
     <title>Hello</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1 id="id-title"></h1>
+
+
+    <div class="container">
+        <div id="id-view-table_main">
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">idade</th>
+                    </tr>
+                </thead>
+                <tbody id="id-tbody_main">
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row"> <input type="text" class="form-control" id="id" placeholder="id"></th>
+                        <td> <input type="text" class="form-control" id="nome" placeholder="nome"></td>
+                        <td> <input type="text" class="form-control" id="sobrenome" placeholder="sobrenome"></td>
+                        <td> <input type="text" class="form-control" id="idade" placeholder="idade"></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="offset-10">
+                <button id="add-user" type="button" class="btn btn-primary">Add User</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="src/index.js"></script>
 </body>
 </html>

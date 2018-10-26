@@ -1,0 +1,14 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.table{
+    background-color: white;
+}
