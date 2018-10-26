@@ -80,18 +80,14 @@ var viewTableMain = {
 
     addUser: function(){
         var user = {
-            nome: 'Nome',
-            sobrenome: 'so',
-            idade: 50,
-            id: 45
+            nome: $('#nome').val(),
+            sobrenome: $('#sobrenome').val(),
+            idade: $('#idade').val(),
+            id: $('#id').val()
         }
 
         model.usuarios.push(user);
         this.render();
-    },
-
-    addLine: function(){
-        
     }
 }
 
